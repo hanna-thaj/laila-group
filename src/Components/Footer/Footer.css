@@ -1,0 +1,32 @@
+.custom-footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.975), rgba(16, 1, 23, 0.964));
+
+  }
+  
+  .custom-footer .social-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-footer .social-link:hover {
+    color: #00d1b2;
+  }
+   
+  Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  

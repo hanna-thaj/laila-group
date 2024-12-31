@@ -1,0 +1,321 @@
+ /* About section container */
+.about-container {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main heading */
+  .about-heading {
+    color: #D32F2F; /* Red color */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Description text */
+  .about-description {
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  /* Subheadings */
+  .sub-heading {
+    color: #388E3C; /* Green color */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #388E3C;
+    padding-bottom: 10px;
+  }
+  
+  /* Specializations section */
+  .specializations-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .specialization {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specialization h4 {
+    color: #D32F2F; /* Red color */
+    margin-bottom: 15px;
+  }
+  
+  .specialization p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* List for why choose us */
+  .why-choose-list {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    padding-left: 20px;
+  }
+  
+  .why-choose-list li {
+    margin-bottom: 15px;
+  }
+  
+  .why-choose-list li strong {
+    color: #388E3C; /* Green color */
+  }
+  
+  /* Mission text */
+  .about-mission {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 40px;
+  }
+  h1{
+    text-align: center;
+    color: #D32F2F;
+  }
+  .specialization-link {
+    text-decoration: none;
+    color: #600909; /* Default color */
+    display: block;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .specialization-link:hover {
+    background-color: #b0d9b2; /* Green color for hover effect */
+    color: #fff; /* White text color when hovered */
+  }
+  /* General styles */
+.partners-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .partners-section .sub-heading {
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout */
+  .partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Partner card styles */
+  .partner-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .partner-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .partner-logo {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .partner-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  /* Specializations Button */
+.specialization-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff4400; /* Bootstrap primary color */
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.specialization-button:hover {
+  background-color: #137b0f; /* Darker shade for hover */
+}
+
+  /* General Styles */
+.about-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section headings */
+.contact-heading,
+.about-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.locations-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual location card */
+.location-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.location-card h4 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.location-card p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+
+.location-card strong {
+  color: #2c3e50;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-heading,
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .location-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .location-card p {
+    font-size: 0.9rem;
+  }
+}
+/* General Styles */
+.about-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Headings */
+.contact-heading,
+.about-heading {
+  font-size: 2.5rem;
+  color: #2fd342; /* Red color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.locations-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Location Card */
+.location-card {
+  background: #eef3ec; /* Light green background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4caf50; /* Green border */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.location-card h4 {
+  font-size: 1.5rem;
+  color: #d32f2f; /* Red color for heading */
+  margin-bottom: 10px;
+}
+
+.location-card p {
+  font-size: 1rem;
+  color: #388e3c; /* Green text for details */
+  margin-bottom: 5px;
+}
+
+.location-card strong {
+  color: #d32f2f; /* Red color for labels */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-heading,
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .location-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .location-card p {
+    font-size: 0.9rem;
+  }
+}

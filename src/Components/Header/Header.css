@@ -1,0 +1,148 @@
+ /* Header.css */
+
+/* Custom header styling */
+.custom-header {
+  background-color: white; /* White background for the navbar */
+  border-bottom: 2px solid green; /* Green border at the bottom */
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Logo and brand name styling */
+.brand img {
+  margin-right: 15px;
+}
+
+.brand h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: red; /* Red text for the brand name */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Navbar links */
+.nav-link {
+  font-size: 1rem;
+  color: green; /* Green text for links */
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: red; /* Change to red on hover */
+  text-decoration: underline; /* Underline to highlight */
+}
+
+/* Vertical line between navbar items */
+.vertical-line {
+  border-left: 2px solid green; /* Green line */
+  height: 24px;
+  margin: 0 10px;
+}
+
+/* Navbar toggle button for mobile view */
+.navbar-toggler {
+  border-color: green;
+}
+
+.navbar-toggler-icon {
+  background-image: linear-gradient(to bottom, red, green); /* Red to green gradient */
+}
+
+/* Collapsed menu items for mobile */
+.navbar-collapse {
+  background-color: white; /* White background for mobile menu */
+}
+
+/* Add spacing to the container */
+.container {
+  max-width: 1200px;
+}
+/* Basic Styling for Header */
+.custom-header {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Adjust title font size for smaller screens */
+  .header-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  
+  /* Vertical line between nav links */
+  .vertical-line {
+    height: 25px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 15px;
+  }
+  
+  /* Adjust padding and font size for smaller devices */
+  @media (max-width: 768px) {
+    .custom-header {
+      padding: 10px 15px;
+    }
+  
+    .header-logo {
+      width: 120px;
+    }
+  
+    .header-title {
+      font-size: 1rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+    }
+  
+    .vertical-line {
+      display: none; /* Remove vertical lines on smaller screens */
+    }
+  }
+  
+  /* Extra small devices */
+  @media (max-width: 576px) {
+    .header-title {
+      font-size: 0.8rem;
+    }
+  
+    .nav-link {
+      font-size: 0.8rem;
+    }
+  
+    .custom-header {
+      padding: 5px 10px;
+    }
+  }
+  .header-title {
+    font-size: 1.5rem; /* Default size for smaller screens */
+  }
+  
+  @media (min-width: 576px) {
+    .header-title {
+      font-size: 2rem; /* Slightly larger for small devices */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header-title {
+      font-size: 2.5rem; /* Larger for tablets and up */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header-title {
+      font-size: 3rem; /* Large size for desktops */
+    }
+  }
+  
